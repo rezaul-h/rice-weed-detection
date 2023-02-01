@@ -1,0 +1,35 @@
+Image Preprocessing
+    Data augmentation
+    image resize : 150 x 150 X 3
+
+5 algorithms 5fold cross validation:
+    CNN
+    VGG16
+    ResNet50
+    InceptionV3
+    MobileNetV1
+    
+    Train/val/test split:
+    train : 80% (x,y)  : 70% training data and rest 10% validation data
+    test : 20% (x,y) 
+    predict:
+        X -> img1   class1
+        y -> class1
+    
+    
+    
+Classifying 11 seperate rice weed images
+
+Evaluation: 
+    Evaluation metrics : Accuracy, precision, recall, F1 score
+    Validation/learning Curve
+    Confusion Metrics
+    Classification Report
+    Roc-Auc Curve
+    
+    
+    
+    
+features array : [(img,class),(img,class),(img,class),(img,class)] 
+                -> predict(img)-class(?)
+    
